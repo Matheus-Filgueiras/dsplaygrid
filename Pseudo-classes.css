@@ -1,0 +1,365 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 15%;
+    color: white;
+    background-color: black;
+    height: 100vh;
+    font-family: "Quicksand ", sans-serif;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+}
+
+
+header div {
+    margin: 15px 0px;
+}
+
+
+.principal {
+
+    width: 85%;
+    background-image: url(./imagens/img_9.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+
+}
+
+
+body {
+    display: flex;
+}
+
+
+.vermelho {
+    color: red;
+}
+
+
+svg {
+    height: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.icones {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+
+
+#imgs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+}
+
+
+.cont-img {
+    width: 33%;
+    height: 300px;
+    position: relative;
+}
+
+
+.cont-img img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+#lupa {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cont-img:hover #lupa {
+    display: flex;
+}
+
+
+
+#welcome {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    backdrop-filter: brightness(60%);
+
+}
+
+.Welcomes {
+    font-size: 23px;
+    padding: 8px;
+
+}
+
+
+
+.subtitulo2 {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+
+
+.person_3 img {
+
+    width: 30%;
+    border-radius: 50%;
+
+
+}
+
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.biografia {
+    font-size: 18px;
+}
+
+.cont-img svg {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    height: 25px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.cont-img:hover svg {
+    opacity: 1;
+    top: 50%;
+
+}
+
+.cont-img:hover img {
+    filter: brightness(50%);
+}
+
+
+.BIOGRAPHY-2 {
+    font-size: 35px;
+}
+
+
+
+.person-3 img {
+    width: 364px;
+}
+
+.BIOGRAPHY {
+    background-color: #1a1a1a;
+}
+
+.Hi {
+    font-size: 30px;
+    color: white;
+}
+
+.Photographer {
+    font-size: 40px;
+    color: white;
+}
+
+.biograf {
+    color: gray;
+    padding-left: 27%;
+    text-align: left;
+
+
+}
+
+.BLOG {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.BLOGS {
+    background-color: black;
+    padding-left: 27%;
+    text-align: left;
+    padding-bottom: 200px;
+}
+
+
+.img-2 {
+    display: flex;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.img-2 img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    text-align: center;
+
+
+}
+
+.New {
+    text-align: left;
+    color: gray;
+    display: flex;
+    justify-content: right;
+}
+
+.texto {
+    font-size: 18px;
+    color: gray;
+    text-align: left;
+    display: flex;
+    padding: 6px;
+    margin-left: 30px;
+}
+
+.formulario {
+    background-color: #1a1a1a;
+    padding: 200px;
+}
+
+.CONTACT {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.formularios {
+    padding: 50px 25%;
+    text-align: left;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+.formularios div {
+    width: 100%;
+}
+
+.formularios div input {
+    width: 100%;
+}
+
+
+
+
+.inputs {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    border-bottom: solid 1px #fff;
+
+}
+
+#primeiro {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+
+}
+
+.jean {
+    color: grey;
+}
+
+.january {
+    font-size: 20px;
+    color: white;
+}
+
+.itens ul li {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.itens {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-top: 50px;
+    color: grey;
+}
+
+.divs {
+    padding: 50px;
+    background-color: #1a1a1a;
+}
+
+
+.texto1 {
+    color: red;
+}
+
+
+.but {
+    height: 60px;
+    border-radius: 70px;
+    width: 200px;
+    border: #df0e62;
+    background-color: #df0e62;
+    color: white;
+    padding: 20px;
+
+
+
+}
+
+.questions {
+    color: gray;
+    margin-top: 30px;
+
+}
+
+.final {
+    background-color: black;
+    padding: 50px;
+}
+
+.fim {
+    font-size: 25px;
+
+}
+
